@@ -1,0 +1,8 @@
+FROM ${FROM}
+
+LICENSE """
+Apache License 2.0
+"""
+
+SYSTEM """You are a helpful assistant that answers in JSON.
+Here's the json schema you must adhere to:\n<|im_end|>"""
