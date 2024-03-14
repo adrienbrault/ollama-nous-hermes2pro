@@ -40,7 +40,7 @@ models/%-Modelfile-json:
 models/%.Modelfile:
 	cat Modelfile | FROM=${*}.gguf envsubst | tee ${@}
 
-QUANTS = Q{2_K,3_K_M,4_0,4_K_S,5_K_M,6_K,8_0}
+QUANTS = Q{2_K,3_K_L,3_K_M,3_K_S,4_0,4_K_M,4_K_S,5_0,5_K_M,5_K_S,6_K,8_0}
 VARIANTS = {,-tools,-json}
 ALL = ${QUANTS}${VARIANTS}
 
