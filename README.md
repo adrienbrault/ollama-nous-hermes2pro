@@ -22,7 +22,7 @@ Fetch the stock fundamentals data for Tesla (TSLA)"
 
 Or a schema for the json mode:
 ```console
-$ ollama run adrienbrault/nous-hermes2pro:Q4_0-json "<schema>$(cat examples/user-schema.json)<schema>
+$ ollama run adrienbrault/nous-hermes2pro:Q4_0-json "<schema>$(cat examples/user-schema.json)</schema>
 
 Adrien Brault was born in 1991"
 
